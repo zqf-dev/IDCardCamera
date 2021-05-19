@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="idcard_positive_reverse_tip_str">请尽量将身份证填满框内</string>
+    <string name="idcard_net_step_str">下一步</string>
+    <string name="picture_jurisdiction">获取存储权限被拒绝</string>
+    <string name="picture_camera">获取系统相机权限被拒绝</string>
+    <string name="picture_prompt">提示</string>
+    <string name="picture_prompt_content">是否保存图片至手机？</string>
+    <string name="picture_confirm">确定</string>
+    <string name="picture_cancel">取消</string>
+    <string name="picture_go_setting">去设置</string>
+    <!--    new idcard lib-->
+    <string name="crop_fail">裁剪失败</string>
+    <string name="type_idcard_front_str">身份证人像面</string>
+    <string name="type_idcard_back_str">身份证国徽面</string>
+    <string name="permission_open_str">请手动打开该应用需要的权限</string>
+</resources>

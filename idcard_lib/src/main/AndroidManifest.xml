@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dsy.idcardlib">
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+
+    <!--    &lt;!&ndash;适配Android R包可见性 开始&ndash;&gt;-->
+    <!--    <queries package="${applicationId}">-->
+    <!--        <intent>-->
+    <!--            <action android:name="android.media.action.IMAGE_CAPTURE" />-->
+    <!--        </intent>-->
+    <!--    </queries>-->
+    <!--    &lt;!&ndash;适配Android R包可见性 结束&ndash;&gt;-->
+    <!--    android:requestLegacyExternalStorage="true"-->
+    <application>
+        <activity
+            android:name=".camera.CameraActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        </activity>
+
+    </application>
+</manifest>
+
+

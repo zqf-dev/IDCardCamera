@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lib_colorPrimary">#D9000000</color>
+    <color name="lib_colorPrimaryDark">#D9000000</color>
+    <color name="lib_colorAccent">#D9000000</color>
+    <color name="picture_color_a83">#a8333333</color>
+    <color name="picture_color_ff572e">#ff572e</color>
+    <color name="picture_color_e">#EEEEEE</color>
+    <color name="picture_color_529BeA">#529BeA</color>
+    <color name="picture_color_eb">#ebebeb</color>
+    <color name="picture_color_white">#FFFFFF</color>
+    <!--    new idcard lib-->
+    <color name="preview_mock">#9a000000</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_afff">#afff</color>
+</resources>

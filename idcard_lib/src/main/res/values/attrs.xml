@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--取景框-->
+    <declare-styleable name="AlbumClipImageView">
+        <attr name="civHeight" format="integer" />
+        <attr name="civWidth" format="integer" />
+        <attr name="civTipText" format="string" />
+        <attr name="civTipTextSize" format="dimension" />
+        <attr name="civMaskColor" format="color" />
+        <!--padding-->
+        <attr name="civClipPadding" format="dimension" />
+        <!--设置裁剪图片圆角-->
+        <attr name="civClipRoundCorner" format="dimension|reference" />
+        <!--设置裁剪成圆形-->
+        <attr name="civClipCircle" format="boolean" />
+    </declare-styleable>
+</resources>
