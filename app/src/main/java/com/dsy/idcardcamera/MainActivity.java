@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == IDCardCameraSelect.RESULT_CODE) {
             List<String> path = IDCardCameraSelect.getImagePath(data);
-            if (path != null) {
+            if (path != null && path.size() > 0) {
                 if (path.size() > 2) {
                     mShowPathTv.setText(("1、" + path.get(0) + "\n" + "2、" + path.get(1)));
                 } else {
